@@ -1,0 +1,77 @@
+.section:hover .description {
+    opacity: 100;
+}
+
+.section:hover .image {
+    margin-left: 0;
+}
+
+.image {
+    width: 50%;
+    margin-left: 25%;
+    transition: 1s;
+}
+
+.description {
+    position: absolute;
+    opacity: 0;
+    text-align: center;
+    transition: opacity 1s;
+    margin-left: 55%;
+    width: 40%;
+}
+
+.title {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.subtitle {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Arvo;
+}
+
+.lpb {
+    padding-bottom: 3rem! important;
+}
+
+@media screen and (max-width: 1140px) {
+    .title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .subtitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .text {
+        font-size: 10px;
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .image {
+        width: 100%;
+        margin-left: 0;
+    }
+    .description {
+        width: 90%;
+        margin-top: 2rem;
+        position: static;
+        opacity: 100;
+        margin-left: 5%;
+    }
+}
