@@ -1,0 +1,45 @@
+div {
+	width: 300px;
+	border: 15px solid green;
+	padding: 50px;
+	margin: 20px;
+}
+
+.title {
+	position: absolute;
+	width: 528px;
+	height: 123px;
+	left: 312px;
+	top: 217px;
+	font-family: Arvo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 123px;
+	color: #FFFFFF;
+}
+
+.imageOne {
+	position: absolute;
+	width: 384px;
+	height: 415px;
+	left: 0px;
+	top: 71px;
+}
+
+.imageTwo {
+	position: absolute;
+	width: 384px;
+	height: 415px;
+	left: 384px;
+	top: 71px;
+	opacity: 0.9;
+}
+
+.imageThree {
+	position: absolute;
+	width: 384px;
+	height: 415px;
+	left: 768px;
+	top: 71px;
+}
