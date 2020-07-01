@@ -19,20 +19,83 @@
   height: 100px;
   transform: rotate(-20deg);
   position: relative;
-  left: 15%;
-  top: -100px;
+  float: right;
 }
 
 .instagram{
   width: 100px;
   height: 100px;
-  position: absolute;
+  position: relative;
   transform: rotate(20deg);
-  left: 60%;
-  top: 50%;
 }
 
 .container{
   background-image: url(email.png);
   background-image: url(instagram.png);
+}
+
+@media only screen and (max-width: 837px) {
+  .contact{
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .other{
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .email{
+    width: 90px;
+    height: 60px;
+  }
+
+  .instagram{
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .other{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .email{
+    width: 60px;
+    height: 40px;
+  }
+
+  .instagram{
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact{
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .other{
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .email{
+    width: 45px;
+    height: 30px;
+  }
+
+  .instagram{
+    width: 37px;
+    height: 37px;
+  }
 }
