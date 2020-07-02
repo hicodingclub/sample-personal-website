@@ -1,0 +1,182 @@
+
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+
+.title {
+	position: absolute;
+	width: 528px;
+	height: 123px;
+	left: 312px;
+	top: 217px;
+	font-family: Arvo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 123px;
+	color: #FFFFFF;
+}
+
+.titleTwo {
+	position: absolute;
+	width: 342px;
+	height: 123px;
+	left: 405px;
+	top: 606px;
+	font-family: Arvo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 123px;
+	color: #FFFFFF;
+}
+
+.titleThree {
+	position: absolute;
+	width: 410px;
+	height: 123px;
+	left: 371px;
+	top: 1043px;
+	font-family: Arvo;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 123px;
+	color: #FFFFFF;
+}
+
+.imageOne {
+	position: absolute;
+	width: 384px;
+	height: 415px;
+	left: 0px;
+	top: 71px;
+}
+
+.imageTwo {
+	position: absolute;
+	width: 384px;
+	height: 415px;
+	left: 384px;
+	top: 71px;
+	opacity: 0.9;
+}
+
+.imageThree {
+	position: absolute;
+	width: 384px;
+	height: 415px;
+	left: 768px;
+	top: 71px;
+}
+
+.imageFour {
+	position: absolute;
+	width: 708px;
+	height: 415px;
+	left: 0px;
+	top: 486px;
+}
+
+.imageFive {
+	position: absolute;
+	width: 445.22px;
+	height: 415px;
+	left: 708px;
+	top: 486px;
+}
+
+.imageSix {
+	position: absolute;
+	width: 458.03px;
+	height: 415px;
+	left: 0px;
+	top: 901px;
+}
+
+.imageSeven {
+	position: absolute;
+	width: 355px;
+	height: 415px;
+	left: 458px;
+	top: 901px;
+}
+
+.imageEight {
+	position: absolute;
+	width: 340px;
+	height: 415px;
+	left: 813px;
+	top: 901px;
+}
+
+.blurOne {
+	position: absolute;
+	width: 1152px;
+	height: 52px;
+	left: 9px;
+	top: 71px;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.038) -71.19%,
+		rgba(255, 255, 255, 0) 57.69%);
+	backdrop-filter: blur(4px);
+}
+
+.blurTwo {
+	position: absolute;
+	width: 1152px;
+	height: 77px;
+	left: 0px;
+	top: 446px;
+	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.142)
+		0%, rgba(255, 255, 255, 0) 100%);
+	backdrop-filter: blur(4px);
+}
+
+.blurThree {
+	position: absolute;
+	width: 1152px;
+	height: 52px;
+	left: 1px;
+	top: 1264px;
+	background: linear-gradient(360deg, rgba(255, 255, 255, 0.038) 0.89%,
+		rgba(255, 255, 255, 0) 61.54%);
+	backdrop-filter: blur(4px);
+}
+
+/* .imageBlurOne {
+	position: absolute;
+	width: 92px;
+	height: 411px;
+	left: 662px;
+	top: 486px;
+	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.024)
+		0%, rgba(255, 255, 255, 0) 91.38%);
+	backdrop-filter: blur(4px);
+}
+
+.imageBlurTwo {
+	position: absolute;
+	width: 92px;
+	height: 411px;
+	left: 412px;
+	top: 905px;
+	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.024)
+		0%, rgba(255, 255, 255, 0) 91.38%);
+	backdrop-filter: blur(4px);
+}
+
+.imageBlurThree {
+	position: absolute;
+	width: 54px;
+	height: 415px;
+	left: 738px;
+	top: 71px;
+	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.142)
+		0%, rgba(255, 255, 255, 0) 100%);
+	backdrop-filter: blur(4px);
+} */
