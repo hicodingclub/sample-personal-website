@@ -1,5 +1,32 @@
-<div class="toolbar" role="banner">
-    <span>Welcome</span>
+<div class="header">
+    <nav class="navbar navbar-light navbar-expand-lg">
+        <div style="height:100%">
+            <a class="navbar-brand d-flex align-items-center" routerLink="/">
+                <div class="logo-text">
+                    WILLIAM SHIH
+                </div>
+            </a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarItems" aria-controls="navbarItems" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+        <div class="collapse navbar-collapse ml-auto mr-auto" id="navbarItems">
+            <ul class="navbar-nav" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <li class="nav-item"><a class="nav-link" [ngClass]="{'active': currentUrl === '' || currentUrl === '/' }" routerLinkActive="active" routerLink="/">HOME</a></li>
+                <li class="nav-item"><a class="nav-link" routerLinkActive="active" routerLink="/activities">ACTIVITIES</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/interests">INTERESTS</a></li>
+                <li class="nav-item"><a class="nav-link" routerLinkActive="active" routerLink="/contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 
+    <div class="auth-icon">
+        <lib-auth-icon [showUserName]="false"></lib-auth-icon>
+    </div>
+    -->
 </div>
 
 
