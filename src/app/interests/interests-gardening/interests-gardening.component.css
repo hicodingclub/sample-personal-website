@@ -1,45 +1,77 @@
-div {
-	width: 300px;
-	border: 15px solid green;
-	padding: 50px;
-	margin: 20px;
+.description {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+    margin-bottom: 50px;
 }
 
 .title {
-	position: absolute;
-	width: 528px;
-	height: 123px;
-	left: 312px;
-	top: 217px;
-	font-family: Arvo;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 100px;
-	line-height: 123px;
-	color: #FFFFFF;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 65px;
 }
 
-.imageOne {
-	position: absolute;
-	width: 384px;
-	height: 415px;
-	left: 0px;
-	top: 71px;
+.subtitle {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    padding-left: 20px;
 }
 
-.imageTwo {
-	position: absolute;
-	width: 384px;
-	height: 415px;
-	left: 384px;
-	top: 71px;
-	opacity: 0.9;
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Arvo;
+    padding-left: 32px;
 }
 
-.imageThree {
-	position: absolute;
-	width: 384px;
-	height: 415px;
-	left: 768px;
-	top: 71px;
+.image {
+    width: 100%;
+}
+
+#garden-mobile {
+    display: none;
+}
+
+.back-button {
+    width: 20%;
+    transition: transform .1s;
+}
+
+.back-button:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 576px) {
+    #garden-mobile {
+        display: block;
+    }
+    #garden-desktop {
+        display: none;
+    }
+    .title {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .text {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .subtitle {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .paragraph {
+        margin-bottom: 10px;
+    }
 }

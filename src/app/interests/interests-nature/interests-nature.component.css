@@ -1,0 +1,77 @@
+.description {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+    margin-bottom: 50px;
+}
+
+.title {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.subtitle {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 40px;
+    padding-left: 20px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Arvo;
+    padding-left: 32px;
+}
+
+.image {
+    width: 100%;
+}
+
+#trail-mobile {
+    display: none;
+}
+
+.back-button {
+    width: 20%;
+    transition: transform .1s;
+}
+
+.back-button:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 576px) {
+    #trail-mobile {
+        display: block;
+    }
+    #trail-desktop {
+        display: none;
+    }
+    .title {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .text {
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .subtitle {
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .paragraph {
+        margin-bottom: 10px;
+    }
+}

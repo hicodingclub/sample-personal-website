@@ -48,7 +48,7 @@
     padding-bottom: 3rem! important;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1200px) {
     .title {
         font-size: 28px;
         line-height: 36px;
@@ -63,7 +63,7 @@
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 576px) {
     .image {
         width: 100%;
         margin-left: 0;
