@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
-    height: 145vh;
+    height: 175vh;
     top: -16px;
     bottom: 0;
     right: 0;
@@ -12,7 +12,7 @@
 }
 
 .top-row{
-  height: 42vh;
+  height: 60vh;
 }
 
 .intro-row {
@@ -88,9 +88,7 @@
         line-height: 33px;
         left: 0;
     }
-    .top-row {
-        height: 42vh;
-    }
+
 }
 
 
