@@ -2,12 +2,17 @@
     background-image: url(../../assets/back.png);
     background-position: center top;
     background-repeat: no-repeat;
+    background-size: 100%;
     position: relative;
     height: 145vh;
     top: -16px;
     bottom: 0;
     right: 0;
     left: 0;
+}
+
+.top-row{
+  height: 42vh;
 }
 
 .intro-row {
@@ -88,29 +93,4 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
-    .bg {
-        background-image: url(../../assets/back.png);
-        background-position: center top;
-        background-repeat: no-repeat;
-        position: relative;
-        background-size: 100%;
-    }
-    .intro-row {
-        font-family: Libre Baskerville;
-        font-style: italic;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 15px;
-    }
-    .name-row {
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 13px;
-        line-height: 33px;
-    }
-    .top-row {
-        height: 14vh;
-    }
-}
+
