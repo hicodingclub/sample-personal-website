@@ -1,0 +1,64 @@
+.description {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraph {
+    margin-bottom: 50px;
+}
+
+.title {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Arvo;
+    padding-left: 32px;
+}
+
+.image {
+    width: 100%;
+}
+
+#dog-mobile {
+    display: none;
+}
+
+.back-button {
+    width: 20%;
+    transition: transform .1s;
+}
+
+.back-button:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 576px) {
+    #dog-mobile {
+        display: block;
+    }
+    #dog-desktop {
+        display: none;
+    }
+    .title {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .text {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .paragraph {
+        margin-bottom: 10px;
+    }
+}
