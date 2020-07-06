@@ -10,173 +10,93 @@ html, body, {
 
 .title {
 	position: absolute;
-	width: 528px;
 	height: 123px;
-	left: 312px;
-	top: 217px;
+	top: 35vh;
 	font-family: Arvo;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 100px;
+	font-size: 640%;
 	line-height: 123px;
 	color: #FFFFFF;
+	text-align:center;
+	width: 100%;
+	left: 0%;
 }
 
 .titleTwo {
 	position: absolute;
-	width: 342px;
+	width: 100%;
 	height: 123px;
-	left: 405px;
-	top: 606px;
+	left: 0%;
+ 	top: 100vh;
 	font-family: Arvo;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 100px;
+	font-size: 640%;
 	line-height: 123px;
 	color: #FFFFFF;
+	text-align:center;
+	width: 100%;
+	left: 0%;
 }
 
 .titleThree {
 	position: absolute;
-	width: 410px;
 	height: 123px;
-	left: 371px;
-	top: 1043px;
+	top: 155vh;
 	font-family: Arvo;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 100px;
+	font-size: 640%;
 	line-height: 123px;
 	color: #FFFFFF;
+	text-align:center;
+	width: 100%;
+	left: 0%;
 }
 
 .imageOne {
-	position: absolute;
-	width: 384px;
-	height: 415px;
+	/* width: 1161px;
+	height: 1245px;
 	left: 0px;
 	top: 71px;
+	position: absolute; */
+	
+	width: 100vw;
+	height: 200vh;
+	margin: 0;
+	padding: 0;
+	max-height: 100%;
 }
 
-.imageTwo {
-	position: absolute;
-	width: 384px;
-	height: 415px;
-	left: 384px;
-	top: 71px;
-	opacity: 0.9;
+
+    
+    
+
+@media only screen and (max-width: 530px) {
+	.title{
+		top: 20vh;
+		font-size: 300%;
+		
+	}
+	
+	.titleTwo{
+		top: 45vh;
+		font-size: 300%;
+	}
+	
+	.titleThree{
+		top: 70vh;
+		font-size: 300%;
+	}
+	
+    .imageOne {
+      width: 100vw;
+	  height: 80vh;
+	  margin: 0;
+	  padding: 0;
+    }
+    
 }
 
-.imageThree {
-	position: absolute;
-	width: 384px;
-	height: 415px;
-	left: 768px;
-	top: 71px;
-}
-
-.imageFour {
-	position: absolute;
-	width: 708px;
-	height: 415px;
-	left: 0px;
-	top: 486px;
-}
-
-.imageFive {
-	position: absolute;
-	width: 445.22px;
-	height: 415px;
-	left: 708px;
-	top: 486px;
-}
-
-.imageSix {
-	position: absolute;
-	width: 458.03px;
-	height: 415px;
-	left: 0px;
-	top: 901px;
-}
-
-.imageSeven {
-	position: absolute;
-	width: 355px;
-	height: 415px;
-	left: 458px;
-	top: 901px;
-}
-
-.imageEight {
-	position: absolute;
-	width: 340px;
-	height: 415px;
-	left: 813px;
-	top: 901px;
-}
-
-.blurOne {
-	position: absolute;
-	width: 1152px;
-	height: 52px;
-	left: 9px;
-	top: 71px;
-	background: linear-gradient(180deg, rgba(255, 255, 255, 0.038) -71.19%,
-		rgba(255, 255, 255, 0) 57.69%);
-	backdrop-filter: blur(4px);
-}
-
-.blurTwo {
-	position: absolute;
-	width: 1152px;
-	height: 77px;
-	left: 0px;
-	top: 446px;
-	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.142)
-		0%, rgba(255, 255, 255, 0) 100%);
-	backdrop-filter: blur(4px);
-}
-
-.blurThree {
-	position: absolute;
-	width: 1152px;
-	height: 52px;
-	left: 1px;
-	top: 1264px;
-	background: linear-gradient(360deg, rgba(255, 255, 255, 0.038) 0.89%,
-		rgba(255, 255, 255, 0) 61.54%);
-	backdrop-filter: blur(4px);
-}
-
-/* .imageBlurOne {
-	position: absolute;
-	width: 92px;
-	height: 411px;
-	left: 662px;
-	top: 486px;
-	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.024)
-		0%, rgba(255, 255, 255, 0) 91.38%);
-	backdrop-filter: blur(4px);
-}
-
-.imageBlurTwo {
-	position: absolute;
-	width: 92px;
-	height: 411px;
-	left: 412px;
-	top: 905px;
-	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.024)
-		0%, rgba(255, 255, 255, 0) 91.38%);
-	backdrop-filter: blur(4px);
-}
-
-.imageBlurThree {
-	position: absolute;
-	width: 54px;
-	height: 415px;
-	left: 738px;
-	top: 71px;
-	background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.142)
-		0%, rgba(255, 255, 255, 0) 100%);
-	backdrop-filter: blur(4px);
-} */
+    
